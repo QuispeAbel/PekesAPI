@@ -14,4 +14,9 @@
     <ProjectReference Include="..\Pekes.Application\Pekes.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Midleware\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>
