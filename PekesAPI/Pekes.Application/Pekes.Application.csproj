@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pekes.Domain\Pekes.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
