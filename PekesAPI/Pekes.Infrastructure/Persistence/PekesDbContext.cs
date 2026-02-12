@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Pekes.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace Pekes.Infrastructure.Persistence
     {
         public PekesDbContext (DbContextOptions<PekesDbContext> options) : base(options){}
 
+        DbSet<Servicio> Servicios { get; set; }
 
     }
 }
