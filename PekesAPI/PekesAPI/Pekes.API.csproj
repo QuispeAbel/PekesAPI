@@ -16,11 +16,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pekes.Application\Pekes.Application.csproj" />
+    <ProjectReference Include="..\Pekes.Infrastructure\Pekes.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Midleware\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Midleware\" />
   </ItemGroup>
 
 </Project>
