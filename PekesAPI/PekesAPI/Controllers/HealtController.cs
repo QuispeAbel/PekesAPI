@@ -10,7 +10,7 @@ namespace Pekes.API.Controllers
         [HttpGet]
         public async Task<OkObjectResult> GetHealt()
         {
-            return Ok("It's live");
+            return Ok("It's live aaaaaaaaaaaaawfvcaafaefaaa");
         }
     }
 }
